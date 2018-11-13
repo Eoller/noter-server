@@ -1,0 +1,7 @@
+{
+  "timestamp": "2018-11-12T18:25:42.080+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "No message available",
+  "path": "/api/notes/byId/b6d299ea-539a-42ed-83af-6163912aede4"
+}

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2018-11-12T18:25:50.581+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "No value present",
+  "path": "/api/notes"
+}

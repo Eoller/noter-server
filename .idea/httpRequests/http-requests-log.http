@@ -1,0 +1,49 @@
+GET http://localhost:8082/api/notes/all
+
+<> 2018-11-12T072919.200.json
+
+###
+
+GET http://localhost:8082/api/notebooks/all
+
+<> 2018-11-12T072703.200.json
+
+###
+
+GET http://localhost:8082/api/colors/all
+
+<> 2018-11-12T072700.404.json
+
+###
+
+POST http://localhost:8082/api/notes
+Content-Type: application/json
+
+{
+  "title": "Another Note",
+  "text": "Another Note Description",
+  "notebookId": "1c560773-e9f2-4190-bae5-0b4d9a349ba3"
+}
+
+<> 2018-11-12T072550.500.json
+
+###
+
+GET http://localhost:8082/api/notes/byId/b6d299ea-539a-42ed-83af-6163912aede4
+
+<> 2018-11-12T072542.500.json
+
+###
+
+GET http://localhost:8082/api/notes/all
+
+<> 2018-11-12T072538.200.json
+
+###
+
+GET http://localhost:8082/api/colors/all
+
+<> 2018-11-12T072332.404.json
+
+###
+
